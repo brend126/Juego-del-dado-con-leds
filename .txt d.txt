@@ -1,0 +1,20 @@
+Explicación de líneas de código:
+intbutton = 12; // pin para el interruptor de botón
+intpressed = 0; // valor para verificar el estado del interruptor de botón
+randomSeed(analogRead(0)); // inicializar semilla aleatoria por ruido del pin analógico 0 (debe estar desconectado)
+Serial.begin(9600); // si estamos depurando, conectamos a serial
+void buildUpTension() {
+if (i!=first) {
+digitalWrite(i-1, LOW);
+intrandNumber = random(1,7);  // obtener un número aleatorio en el rango [1,6]
+pressed = digitalRead(button); // si se presiona el botón, tira los dados
+
+Se necesitan:
+•	6 leds
+•	1 pulsador
+•	7 resistencias
+•	1 placa Arduino
+•	1 pila de 9V
+•	Placa de prueba pequeña
+
+
